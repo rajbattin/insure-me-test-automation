@@ -74,7 +74,7 @@ public class App
 	    
 	    File scrFile = scrShot.getScreenshotAs(OutputType.FILE);
 	    
-	    File desFile = new File("/Users/dell/Documents/test-reports.jpg");
+	     File desFile = new File("/var/lib/jenkins/workspace/insure-me-test-scripts/test-reports.jpg");
 	    
 	    FileUtils.copyFile(scrFile, desFile);
 	    
